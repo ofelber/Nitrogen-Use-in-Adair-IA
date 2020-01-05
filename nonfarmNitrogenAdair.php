@@ -20,8 +20,8 @@
       //$connection = pg_connect($database);
 
       //New database connection in SQL Server
-      $serverName = "DESKTOP-8D2EJPT"; //serverName\instanceName
-      $connectionInfo = array( "Database"=>"Sandbox", "UID"=>"sa", "PWD"=>"pikachu");
+      $serverName = "[server name"; //serverName\instanceName
+      $connectionInfo = array( "Database"=>"[database name]", "UID"=>"sa", "PWD"=>"[password]");
       $conn = sqlsrv_connect( $serverName, $connectionInfo);
 
       //In the database 1 is nitrogen, fips_co 1 is Adair County, and location_type 2 is nonfarm use
