@@ -161,11 +161,11 @@
 
     ctx.textAlign = "right";
     ty = 4;
-    ctx.fillText('8,000,000', offx-15, offy+ty);
+    ctx.fillText('15,000', offx-15, offy+ty);
     ty = ty + 42;
     ctx.fillText('', offx-15, offy+ty);
     ty = ty + 42;
-    ctx.fillText('4,000,000', offx-15, offy+ty);
+    ctx.fillText('7,500', offx-15, offy+ty);
     ty = ty + 42;
     ctx.fillText('', offx-15, offy+ty);
     ty = ty + 50;
